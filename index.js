@@ -38,7 +38,7 @@ const VIDEOS = [
 ]
 
 const FILE_DOWNLOADS = [
-  'media/images/chiui.png',
+  'media/images/saxophoneeee.png',
 ]
 
 const PHRASES = [
