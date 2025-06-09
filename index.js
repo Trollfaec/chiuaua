@@ -38,18 +38,7 @@ const VIDEOS = [
 ]
 
 const FILE_DOWNLOADS = [
-  'media/images/ptok.jpg',
-  'media/images/jaczup.jpg',
-  'media/images/jaczupme.jpg',
-  'media/images/ptoszek.jpg',
-  'media/images/ptakwspodniach.jpg',
-  'media/images/kichajacyptoszek.jpg',
-  'media/images/lubieptoszki.png',
-  'media/images/zimowyptoszek.jpeg', // added by @dan64iel
-  'media/images/zlyptok.jpeg', //added by @imzeme
-  'media/images/grubyptok.jpg', //added by @imzeme
-  'media/images/ptokzjajami.jpeg', //added by @MARECKIyt
-  'media/images/ptiszka.jpg',
+  'media/images/chiui.png',
 ]
 
 const PHRASES = [
