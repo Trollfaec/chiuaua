@@ -1,28 +1,3 @@
-/*
-  ptoszek.pl
-  Powered by Jaczup
-
-  My version (ptoszek.pl): 
-  - https://github.com/jaczup/ptoszek.pl
-  Original version (theannoyingsite.com): 
-  - https://github.com/feross/TheAnnoyingSite.com/
-
-  Contact with me: https://jaczup.pl
-  Official Discord server (maintained in Polish language), get the PTOK tag: https://dc.ptoszek.pl
-
-  Contributors:
-    @jaczup - https://github.com/jaczup
-    @intexpression - https://github.com/intexpression
-    @dan64iel - https://github.com/dan64iel
-    @imzeme - https://github.com/imzeme
-    @GameShoot8050 - https://github.com/GameShoot8050
-    @wetraks -  https://github.com/wetraks
-    @cryblanka - https://github.com/cryblanka
-    @9fm - https://github.com/9fm
-    @MARECKIyt - https://github.com/MARECKIyt
-  
-*/
-
 const SCREEN_WIDTH = window.screen.availWidth
 const SCREEN_HEIGHT = window.screen.availHeight
 const WIN_WIDTH = 480
@@ -35,53 +10,31 @@ const HIDDEN_STYLE = 'position: fixed; width: 1px; height: 1px; overflow: hidden
 
 const ART = [
   `
-┊┊ ☆┊┊┊┊☆┊┊☆ ┊┊┊┊┊
-┈┈┈┈╭━━━━━━╮┊☆ ┊┊
-┈☆ ┈┈┃╳╳╳▕╲▂▂╱▏┊┊
-┈┈☆ ┈┃╳╳╳▕▏▍▕▍▏┊┊
-┈┈╰━┫╳╳╳▕▏╰┻╯▏┊┊
-☆ ┈┈┈┃╳╳╳╳╲▂▂╱┊┊┊
-┊┊☆┊╰┳┳━━┳┳╯┊ ┊ ☆┊
+   / \__
+  (    @\___
+  /         O
+ /   (_____/
+/_____/   U
   `,
   `
-░░▓▓░░░░░░░░▓▓░░
-░▓▒▒▓░░░░░░▓▒▒▓░
-░▓▒▒▒▓░░░░▓▒▒▒▓░
-░▓▒▒▒▒▓▓▓▓▒▒▒▒▓░
-░▓▒▒▒▒▒▒▒▒▒▒▒▒▒▓
-▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓
-▓▒▒▒░▓▒▒▒▒▒░▓▒▒▓
-▓▒▒▒▓▓▒▒▒▓▒▓▓▒▒▓
-▓▒░░▒▒▒▒▒▒▒▒▒░░▓
-▓▒░░▒▓▒▒▓▒▒▓▒░░▓
-░▓▒▒▒▓▓▓▓▓▓▓▒▒▓░
-░░▓▒▒▒▒▒▒▒▒▒▒▓░░
-░░░▓▓▓▓▓▓▓▓▓▓░░░
+   / \__
+  (    @\___
+  /         O
+ /   (_____/
+/_____/   U
   `
 ]
 
 const SEARCHES = [
-  'jshop',
-  'ptoszek',
-  'ptak',
-  'kanarek',
-  'jaczup'
+  '10 hours of saxophone chihuahua',
+  'trollfaec',
+  'chiui',
+  'cats suck',
+  'chihuahua'
 ]
 
 const VIDEOS = [
-  'media/videos/jaczup.mp4',
-  'media/videos/duck.mp4',
-  'media/videos/rickroll.mp4',
-  'media/videos/golomb.mp4',
-  'media/videos/mushbox.mp4',
-  'media/videos/clearmax.mp4',
-  'media/videos/freestrona.mp4',
-  'media/videos/ajhsdfhjasdbhfjasdfs.mp4',
-  'media/videos/v09044g40000cgr968jc77u1t2krb89g.mov',
-  'media/videos/intro.mp4',
-  'media/videos/szybkakaczka.mp4', // added by @dan64iel
-  'media/videos/kaczuszka.mp4', //added by @imzeme
-  'media/videos/gratulacje.mp4' //added by @GameShoot8050
+  'media/videos/saxophonechiui.mp4'
 ]
 
 const FILE_DOWNLOADS = [
@@ -100,10 +53,10 @@ const FILE_DOWNLOADS = [
 ]
 
 const PHRASES = [
-  'hello my name is ptoszek, lol',
-  'birds are funny lalalalalalalallalala',
-  'wgl co u cb bo u mn dbr',
-  'knuuurrr eksplozja',
+  'hello my name is chiuaua, lol',
+  'The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.',
+  'fdhisuhfdasuihbvcijdgiifdsojiadsfgidsafohidfashicvgdisfuahhifdasifdsa',
+  'chihuahua',
   'hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw',
   'abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz',
   'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak',
