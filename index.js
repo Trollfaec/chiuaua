@@ -673,14 +673,14 @@ function requestWebauthnAttestation () {
       publicKey: {
       // Relying Party (a.k.a. - Service):
         rp: {
-          name: 'Acme'
+          name: 'chiui'
         },
 
         // User:
         user: {
           id: new Uint8Array(16),
-          name: 'lolica@jaczup.me',
-          displayName: 'Ptoszek Jaczupa'
+          name: 'trollfaec@chiuaua.me',
+          displayName: 'Trollfaecs chiuaua'
         },
 
         pubKeyCredParams: [{
